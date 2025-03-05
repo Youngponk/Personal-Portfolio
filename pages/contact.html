@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+  <title>Contact</title>
+</head>
+<body>
+  <header>
+    <nav id="nav-bar">
+
+      <div class="nav-info">
+        <img class="nav-photo" src="#" alt="nav photo">
+        <p class="nav-name">your name</p>
+      </div>
+
+      <div class="nav-items">
+        <ul>
+          <li>
+            <a href="/index.html">Home /</a>
+          </li>
+  
+          <li>
+            <a href="/pages/projects.html">Projects /</a>
+          </li>
+  
+          <li>
+            <a href="/pages/articles.html">Articles /</a>
+          </li>
+  
+          <li>
+            <a href="/pages/contact.html">Contact</a>
+          </li>
+  
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <form>
+      <label for="firstname">First name: </label>
+      <input type="text" name="firstname"  required>
+      <br>
+      <label for="lastname">Last name: </label>
+      <input type="text" name="lastname"  required>
+      <br>
+      <label for="email">Email: </label>
+      <input type="email" name="email"  required>
+      <br>
+      <label for="phone">Phone number:</label>
+      <input type="tel" name="phoneField" id="phone" maxlength="9" pattern="[0-9]{1} - [0-9] {8}" required>
+      <br>
+      <label for="message">Message:</label><br>
+      <textarea name="message" id="message" cols="30" rows="4"></textarea><br>
+      <br>
+      <input type="submit" value="Submit">
+  </form>
+  </main>
+</body>
+</html>
