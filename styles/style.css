@@ -1,0 +1,36 @@
+/* width >= 0 : phone */
+/* width >= 640px : tablets */
+/* width >= 960px : desktop */
+
+/* 
+
+
+h1 {
+  font-size: 2rem;
+
+  @media (width >= 640px) {
+    font-size: 3rem;
+  }
+  
+  @media (width >= 960px) {
+    font-size: 4rem;
+  }
+
+} */
+
+
+/* General css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Indie Flower';
+}
+
+h1 {
+  font-size: 2rem;
+  font-size: clamp(2rem, 0.7179rem + 5.4701vw, 4rem);
+}
