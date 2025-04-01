@@ -48,7 +48,7 @@ header {
   display: flex;
   flex-direction: column;
   
-  border-bottom: 2px solid black;
+  border: 1px solid black;
 }
 
 .header-subtitle {
@@ -106,5 +106,26 @@ img {
 .nav-links ul li a{
  text-decoration: none;
  color: black;
+}
+
+/* Main content */
+
+.projects {
+  width: auto;
+  height: auto;
+  padding: 20px;
+}
+
+
+
+
+/* Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-item {
+  border: 1px solid black;
 }
 
